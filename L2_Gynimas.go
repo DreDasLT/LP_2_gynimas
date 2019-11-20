@@ -1,3 +1,10 @@
+/*
+Du procesai-siuntėjai siunčia vienam procesui-gavėjui skaičius, pirmasis procesas iš eilės nuo 0, antrasis - nuo 11. 
+Procesas-gavėjas priima skaičius, ir siunčia juos vienam iš dviejų procesų-spausdintojų: pirmajam lyginius, antrajam nelyginius. 
+Procesai-spausdintojai kaupia gautus skaičius savo masyvuose ir, abiem procesams-siuntėjams baigus darbą, 
+išspausdina savo masyvų turinius į ekraną.
+Darbas baigiamas, kai procesas-gavėjas priima ir persiunčia 20 skaičių.
+*/
 package main
 
 import "sync"
