@@ -1,3 +1,10 @@
+/*
+Yra 4 siuntėjai procesai kurie siunčia 10 skaičių kiekvienas vykdančiajam procesui. 
+Vykdantis procesas apskaičiuoja visų gautų skaičių vidurkį, kai gauna du naujus skaičius ir tada išsiunčia procesui gavėjui. 
+Gavėjas gavęs vidurkį atspausdina gauto skaičiaus eilės numerį ir gautą skaičių. 
+Visi procesai baigia darbą kai procesai siuntėjai išsiunčia visus duomenis.
+*/
+
 package main
 
 import "sync"
